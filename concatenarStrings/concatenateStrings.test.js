@@ -1,6 +1,6 @@
 const {concatenateStrings} = require('./concatenateStrings');
 test('Contatenar dos strings', () =>{
-    expect(concatenateStrings('Hello, ', 'world')).toBe('Hello, world');
+    expect(concatenateStrings('Hello, ', 'world')).toBe('Hell, world');
 });
     
 test('Lanza un error si alguno de los argumentos no es una cadena', () => {
